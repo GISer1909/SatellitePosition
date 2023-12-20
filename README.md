@@ -1,4 +1,4 @@
-# SatellitePositionExe
+# Satellite Position Software
 Software for finding Satellite position according to broadcast Ephemeris
 
 The functions are as follows:
