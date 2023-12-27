@@ -1,14 +1,28 @@
-# Satellite Position Software
-Software for finding Satellite position according to broadcast Ephemeris
+# 卫星位置定位软件
 
-The functions are as follows:
+本软件旨在根据广播星历数据确定卫星位置。它为卫星导航和大地测量领域的学术和专业应用提供精确的计算和可视化功能。
 
-- Open broadcast ephemeris files and calculate satellite positions for each epoch. By using Chebyshev polynomials and indirect adjustment methods (using fourth-order Runge-Kutta method for GLONASS satellites), satellite positions can be calculated for any specific time or time interval. Additionally, it is possible to set the geocentric coordinates and visualize the satellite azimuth.
+## 主要特点
 
-- Open precise ephemeris files for the corresponding time to verify the accuracy of the calculated results.
+1. **星历文件处理**：软件能处理广播星历文件，为每个历元计算卫星位置。这一功能对于需要最新卫星位置数据的应用至关重要。
 
-The software running interface is as follows:
+2. **先进的计算方法**：使用切比雪夫多项式和间接平差方法进行计算。对GLONASS卫星，应用四阶龙格-库塔法，确保位置计算的高精度。
 
-![示例图片](exe1.png) ![示例图片](exe2.png)
+3. **灵活的时间输入**：用户可以输入特定时间或时间间隔以计算卫星位置，为各种研究和操作需求提供灵活性。
 
-#### [Download the executable file (.exe)](https://github.com/GISer1909/SatellitePosition/releases/download/v2.0/GNSS._v2.0.rar) from the repository's release version to experience the functionality.
+4. **地心坐标设置**：软件允许设置地心坐标，使用户能够从特定的地球位置获取卫星方位数据。
+
+5. **精确星历文件支持**：为了验证精度，软件可以处理与计算时间相对应的精确星历文件，确保结果的可靠性。
+
+## 软件界面
+
+体验卫星定位软件直观且用户友好的界面。以下是一些演示软件功能的截图：
+
+![软件界面截图1](exe1.png)
+![软件界面截图2](exe2.png)
+
+## 下载
+
+立即开始使用卫星定位软件！
+
+👉 [从仓库的发布版本下载可执行文件（.exe）](https://github.com/GISer1909/SatellitePosition/releases/download/v2.0/GNSS._v2.0.rar)，探索其全面的功能。
